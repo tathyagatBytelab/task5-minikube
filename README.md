@@ -24,18 +24,16 @@ Tasks included:
 ---
 
 ## 📂 Project Structure
-'''
+```
 task5-minikube/
 ├── deployment.yaml # Kubernetes Deployment manifest for Nginx
 ├── service.yaml # Kubernetes Service manifest (NodePort)
 ├── README.md # Project documentation & steps
 └── screenshot/ # Folder containing all task screenshots
-
-'''
-
+```
 ---
 
-## 📝 Steps Performed
+###  Steps Performed
 
 ### 1️⃣ Install kubectl
 ```
