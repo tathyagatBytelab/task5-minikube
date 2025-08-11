@@ -121,5 +121,20 @@ kubectl set image deployment/nginx-deployment nginx=nginx:1.26 --record
 kubectl rollout status deployment/nginx-deployment
 kubectl rollout history deployment/nginx-deployment
 
+```
 ### 📸 Screenshots
 
+1. **Minikube Node Status**  
+   ![Node Status](screenshot/1.png)
+
+2. **Pods Status Before Scaling**  
+   ![Pods Before Scaling](screenshot/2.png)
+
+3. **Pods Status After Scaling**  
+   ![Pods After Scaling](screenshot/3.png)
+
+4. **Nginx Welcome Page in Browser**  
+   ![Nginx Page](screenshot/4.png)
+
+5. **Rolling Update Output**  
+   ![Rolling Update](screenshot/5.png)
